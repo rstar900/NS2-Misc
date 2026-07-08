@@ -1,4 +1,4 @@
-# Definition of classes
+# Inheritance of classes
 
 # Create a Mom class with instance functions/procedures greet() and print_name
 # and instance variable as age and class variable name
@@ -9,11 +9,21 @@ Mom instproc greet {} {
     puts "Mom of age $age says: Hi, how are you my son?"
 }
 
-# Create a subclass of Mom named Kid
+Mom instproc destroy {} {
+puts "Destructor of Mom!"
+}
+
+# Create a subclass of Mom named Kid (Kid inherits from Mom)
 Class Kid -superclass Mom
 Kid instproc greet {} {
     $self instvar age
     puts "Son of age $age says: Hi, I am fine mom :)"
+}
+
+Kid instproc destroy {} {
+puts "Destructor of Kid!!"
+# Need this to call the destructor of parent class
+$self next
 }
 
 # Test
@@ -28,3 +38,5 @@ $a greet
 set b [new Kid]
 $b set age 21
 $b greet
+# You should see the output from Kid and Mom's destructor
+$b destroy
