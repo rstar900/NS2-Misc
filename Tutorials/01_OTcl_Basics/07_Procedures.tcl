@@ -7,10 +7,26 @@ return $b
 }
 }
 
-# procedure call
+# Procedure to calculate the factorial of a given number n
+proc factorial n {
+    # Base case
+    if {$n <= 1} {
+        return 1
+    }
+    # Recursive case
+    # return is optional if the last statement returns something
+    expr $n * [factorial [expr $n - 1]]
+}
+
+
+# call max
 set x 9
 set y 10
 puts "Maximum of x and y is: [max $x $y]"
+
+# Test factorial
+puts "Value of factorial $x is [factorial $x]"
+puts "Value of factorial $y is [factorial $y]"
 
 # Return multiple values
 proc fun {} {
