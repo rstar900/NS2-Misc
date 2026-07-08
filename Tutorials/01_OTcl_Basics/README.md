@@ -10,5 +10,6 @@ Some OTcl examples:
 7) Procedures ( Inspiration from https://youtu.be/eCYhxl5xGpQ?si=eB18tWOwS-TLY-Hl , https://youtu.be/vLWzwcTHoXQ?si=W5tkWqifXaoZzMX- , https://youtu.be/eDOINNUblw0?si=rIXrUD44xF2AUWkI )
 8) File_Handling ( Inspiration from https://youtu.be/9v1U3J2LzzQ?si=SzzgG4LZRgCPLS1T )
 9) Class_Intro ( Inspiration from https://youtu.be/ljpMD9Yl3M0?si=-_hz8HvGhesvc_0- )
+10) Class_Constructor_Destructor ( Inspiration from https://youtu.be/RPKxK_MyL0I?si=rI82Pf9nZ5TAuGq8 ,  https://youtu.be/wY_LaIMTfbw?si=eqexEij1xpzxxRtD )
 1) Mom_Kid ( Inspiration from https://youtu.be/k_lfL93zDNQ?list=PLX6MKaDw0naZBi0R-6_IAuYA9Yk_yuyXp )
 2) Factorial ( Inspiration from https://www.geeksforgeeks.org/computer-networks/basics-of-ns2-and-otcltcl-script/ )
